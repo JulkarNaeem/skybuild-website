@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, ScrollRestoration } from 'react
 import Header from './components/Header';
 import { Footer } from './components/Extras';
 import Home from './components/Home';
-import About from './components/About';
+// About is now part of Home
 import ProjectDetails from './components/ProjectDetails';
 import ScrollToAnchor from './utils/ScrollToAnchor';
 import './App.css';
@@ -16,7 +16,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
         </Routes>
         <Footer />
