@@ -46,7 +46,13 @@ export const Footer = () => (
                 <br />
                 <p><strong>Address:</strong> Uttara, Dhaka, Bangladesh.</p>
                 <p><strong>Phone:</strong> +8801739411586</p>
-                <p><strong>Email:</strong> info@skybuildbd.com</p> {/* Placeholder email if not provided */}
+                <p><strong>Email:</strong> info@skybuildbd.com</p>
+
+                <div className="social-links" style={{ marginTop: '1rem' }}>
+                    <a href="https://web.facebook.com/skybuildbd" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '1.5rem', textDecoration: 'none' }} title="Facebook">📘</a>
+                    <a href="https://www.linkedin.com/company/skybuildbd" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '1.5rem', textDecoration: 'none' }} title="LinkedIn">💼</a>
+                    <a href="https://www.youtube.com/@skybuildbd" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.5rem', textDecoration: 'none' }} title="YouTube">▶️</a>
+                </div>
             </div>
             <div className="footer-copyright">
                 <p>&copy; 2024 Sky Build. All Rights Reserved.</p>
