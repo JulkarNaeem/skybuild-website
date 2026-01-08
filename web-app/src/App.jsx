@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, ScrollRestoration } from 'react-router-dom';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import { Footer } from './components/Extras';
 import Home from './components/Home';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetails />} />
         </Routes>
         <Footer />
+        <SpeedInsights />
       </div>
     </Router>
   );
